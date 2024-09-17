@@ -7,12 +7,19 @@
     "dev:frontend": "npm run dev -w frontend",
     "build:frontend": "npm run build -w frontend",
     "start:frontend": "npm run start -w frontend",
-    "lint:frontend": "npm run lint -w frontend"
+    "lint:frontend": "npm run lint -w frontend",
+    "dev:backend": "npm run dev -w backend",
+    "start:backend": "npm run start -w backend"
   },
   "license": "ISC",
-  "description": "",
   "workspaces": [
     "frontend",
     "backend"
-  ]
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "frontend": "^0.1.0"
+  },
+  "devDependencies": {},
+  "description": ""
 }
