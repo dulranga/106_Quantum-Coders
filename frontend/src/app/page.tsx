@@ -1,6 +1,10 @@
 import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
 import { Button } from "antd";
+import win from "@/assets/win.png";
+import compare from "@/assets/compare.png";
+import chat from "@/assets/chat.png";
+
 import { ChevronRight } from "lucide-react";
 
 const Page = () => {
@@ -13,6 +17,7 @@ const Page = () => {
           Try Features
         </h2>
         <FeatureSection
+          imageSrc={win.src}
           action={
             <Button
               icon={<ChevronRight />}
@@ -31,6 +36,7 @@ const Page = () => {
 
         <FeatureSection
           reverseOrder
+          imageSrc={compare.src}
           action={
             <Button
               icon={<ChevronRight />}
@@ -46,6 +52,7 @@ const Page = () => {
         />
 
         <FeatureSection
+          imageSrc={chat.src}
           action={
             <Button
               icon={<ChevronRight />}
