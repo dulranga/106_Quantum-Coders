@@ -20,3 +20,4 @@
 # typescript
 *.tsbuildinfo
 
+backend/pdfs/*
