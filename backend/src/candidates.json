@@ -1,0 +1,245 @@
+{
+    "candidates": {
+        "Anura Kumara Dissanayake": {
+            "party": "NPP",
+            "manifesto": {
+                "healthcare": {
+                    "policy": "Increase healthcare spending to at least 3% of GDP.",
+                    "actions": [
+                        "Improve care facilities for elderly and chronically ill patients.",
+                        "Implement community-based healthcare for non-communicable diseases."
+                    ]
+                },
+                "women_and_children_rights": {
+                    "policy": "Promote gender equality and protect children's rights.",
+                    "actions": [
+                        "Establish laws protecting women from violence.",
+                        "Create child-friendly education and healthcare systems."
+                    ]
+                },
+                "education": {
+                    "policy": "Innovate the educational system to provide inclusive, modern education.",
+                    "actions": [
+                        "Expand vocational and STEM education.",
+                        "Implement technology-driven education in rural areas."
+                    ]
+                },
+                "anti_poverty": {
+                    "policy": "Strengthen social security and workers' rights.",
+                    "actions": [
+                        "Create a social security fund for all workers.",
+                        "Offer financial support to female-headed households."
+                    ]
+                },
+                "access_to_justice": {
+                    "policy": "Ensure justice is accessible to all citizens.",
+                    "actions": [
+                        "Reform judicial procedures for quick processing of cases.",
+                        "Strengthen the Legal Aid Commission."
+                    ]
+                },
+                "delayed_elections": {
+                    "policy": "Conduct long-postponed elections promptly.",
+                    "actions": [
+                        "Hold local government elections within six months.",
+                        "Ensure efficient operations of provincial councils."
+                    ]
+                },
+                "environment_and_climate_change": {
+                    "policy": "Sustainably manage Sri Lanka’s natural resources.",
+                    "actions": [
+                        "Develop renewable energy projects to combat climate change.",
+                        "Establish green technology hubs to promote innovation."
+                    ]
+                },
+                "culture_and_media": {
+                    "policy": "Preserve and promote Sri Lankan culture.",
+                    "actions": [
+                        "Establish cultural zones and centers in every major city.",
+                        "Create a National Film Institute for artistic development."
+                    ]
+                }
+            }
+        },
+        "Sajith Premadasa": {
+            "party": "Samagi Jana Balawegaya",
+            "manifesto": {
+                "healthcare": {
+                    "policy": "Provide universal healthcare through insurance.",
+                    "actions": [
+                        "Upgrade public hospitals.",
+                        "Ensure citizens over 40 receive regular health check-ups."
+                    ]
+                },
+                "women_and_children_rights": {
+                    "policy": "Empower women and protect children's welfare.",
+                    "actions": [
+                        "Provide concessional loans to women-led households.",
+                        "Implement programs to combat child malnutrition."
+                    ]
+                },
+                "education": {
+                    "policy": "Create a modern and globally competitive education system.",
+                    "actions": [
+                        "Increase scholarships and digital learning opportunities.",
+                        "Revise educational curriculums with modern technology."
+                    ]
+                },
+                "anti_poverty": {
+                    "policy": "Protect vulnerable families and promote workers’ rights.",
+                    "actions": [
+                        "Provide financial aid to low-income families and senior citizens.",
+                        "Implement a financial support program for farmers."
+                    ]
+                },
+                "access_to_justice": {
+                    "policy": "Ensure easy access to justice for marginalized communities.",
+                    "actions": [
+                        "Strengthen the Human Rights Commission and Legal Aid Commission.",
+                        "Expand the capacity of provincial courts to reduce backlog."
+                    ]
+                },
+                "delayed_elections": {
+                    "policy": "Promptly hold provincial and local government elections.",
+                    "actions": [
+                        "Ensure the effective functioning of local governments."
+                    ]
+                },
+                "environment_and_climate_change": {
+                    "policy": "Adopt green policies to address climate change.",
+                    "actions": [
+                        "Develop renewable energy projects for solar and wind power.",
+                        "Prioritize eco-friendly policies in urban development."
+                    ]
+                },
+                "culture_and_media": {
+                    "policy": "Promote freedom of expression and cultural development.",
+                    "actions": [
+                        "Introduce tax breaks for cultural and artistic enterprises.",
+                        "Create free art spaces across the country."
+                    ]
+                }
+            }
+        },
+        "Ranil Wickremesinghe": {
+            "party": "UNP",
+            "manifesto": {
+                "healthcare": {
+                    "policy": "Improve public healthcare and regulate private hospitals.",
+                    "actions": [
+                        "Establish a Pharmaceutical Standardization Institute.",
+                        "Expand palliative care and medical services for the elderly."
+                    ]
+                },
+                "women_and_children_rights": {
+                    "policy": "Enhance legal protections for women and children.",
+                    "actions": [
+                        "Create specialized courts for children’s cases.",
+                        "Combat period poverty and provide resources for women's health."
+                    ]
+                },
+                "education": {
+                    "policy": "Modernize education to include vocational training.",
+                    "actions": [
+                        "Start university education by age 17.",
+                        "Create new universities in underdeveloped regions."
+                    ]
+                },
+                "anti_poverty": {
+                    "policy": "Promote fair wages and social protection for workers.",
+                    "actions": [
+                        "Provide loans for middle-class housing and development.",
+                        "Implement social safety nets for farmers and gig workers."
+                    ]
+                },
+                "access_to_justice": {
+                    "policy": "Strengthen judicial reforms for timely access to justice.",
+                    "actions": [
+                        "Review long-term detention cases for fairness.",
+                        "Expand legal aid services to cover all citizens."
+                    ]
+                },
+                "delayed_elections": {
+                    "policy": "Hold postponed elections and strengthen democracy.",
+                    "actions": [
+                        "Hold provincial council elections promptly."
+                    ]
+                },
+                "environment_and_climate_change": {
+                    "policy": "Make Sri Lanka a regional leader in renewable energy.",
+                    "actions": [
+                        "Meet a 70% renewable energy target by 2030.",
+                        "Establish a Climate Change Secretariat to manage disaster resilience."
+                    ]
+                },
+                "culture_and_media": {
+                    "policy": "Protect cultural identity and freedom of expression.",
+                    "actions": [
+                        "Introduce a national journalism policy for responsible reporting.",
+                        "Preserve multicultural identities through cultural programs."
+                    ]
+                }
+            }
+        },
+        "Namal Rajapaksa": {
+            "party": "SLPP",
+            "manifesto": {
+                "healthcare": {
+                    "policy": "Improve healthcare for elderly and vulnerable populations.",
+                    "actions": [
+                        "Provide health insurance for elderly monks.",
+                        "Develop public hospitals with modern ICT systems."
+                    ]
+                },
+                "women_and_children_rights": {
+                    "policy": "Protect women’s rights and enhance child welfare.",
+                    "actions": [
+                        "Provide equal opportunities for women in employment programs.",
+                        "Introduce preschool subsidies for low-income families."
+                    ]
+                },
+                "education": {
+                    "policy": "Expand vocational and higher education opportunities.",
+                    "actions": [
+                        "Establish more universities with international standards.",
+                        "Provide scholarships for students to study abroad."
+                    ]
+                },
+                "anti_poverty": {
+                    "policy": "Provide financial support to low-income families.",
+                    "actions": [
+                        "Offer concessional loans to women entrepreneurs.",
+                        "Implement a permanent fertilizer subsidy program for farmers."
+                    ]
+                },
+                "access_to_justice": {
+                    "policy": "Ensure legal protection for all citizens and their property.",
+                    "actions": [
+                        "Modernize law enforcement and judicial processes.",
+                        "Strengthen protections for intellectual property rights."
+                    ]
+                },
+                "delayed_elections": {
+                    "policy": "Ensure elections are held on schedule.",
+                    "actions": [
+                        "Hold provincial council and local elections promptly."
+                    ]
+                },
+                "environment_and_climate_change": {
+                    "policy": "Develop Sri Lanka as a renewable energy hub.",
+                    "actions": [
+                        "Promote eco-friendly industries and sustainable energy projects.",
+                        "Establish legal frameworks for environmental protection."
+                    ]
+                },
+                "culture_and_media": {
+                    "policy": "Promote Sri Lankan culture globally.",
+                    "actions": [
+                        "Create cultural export hubs to promote arts and culture.",
+                        "Establish intellectual property laws to protect creative industries."
+                    ]
+                }
+            }
+        }
+    }
+}
