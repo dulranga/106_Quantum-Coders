@@ -1,29 +1,26 @@
 // index.mjs
-import {
-    preprocessPDFs
-} from './pdfProcessor.js';
-import {
-    processPDFChunks
-} from './geminiAPI.mjs';
-import {
-    storeResultsInJSON
-} from './resultStorage.js';
+import { preprocessPDFs } from "./pdfProcessor.mjs";
+import { processPDFChunks } from "./geminiAPI.mjs";
+import { storeResultsInJSON } from "./resultStorage.mjs";
 
-(async() => {
-    try {
-        console.log("Starting PDF processing...");
-        const pdfsData = await preprocessPDFs();
-        const analyzedResults = {};
+import dotenv from "dotenv";
+dotenv.config();
 
-        for (const pdfData of pdfsData) {
-            console.log(`Processing and analyzing ${pdfData.fileName}...`);
-            const analyzedChunks = await processPDFChunks(pdfData.chunks);
-            analyzedResults[pdfData.fileName] = analyzedChunks;
-        }
+(async () => {
+  try {
+    console.log("Starting PDF processing...");
+    const pdfsData = await preprocessPDFs();
+    const analyzedResults = {};
 
-        storeResultsInJSON(analyzedResults);
-        console.log("Process completed!");
-    } catch (error) {
-        console.error("Error during processing:", error);
+    for (const pdfData of pdfsData) {
+      console.log(`Processing and analyzing ${pdfData.fileName}...`);
+      const analyzedChunks = await processPDFChunks(pdfData.chunks);
+      analyzedResults[pdfData.fileName] = analyzedChunks;
     }
+
+    storeResultsInJSON(analyzedResults);
+    console.log("Process completed!");
+  } catch (error) {
+    console.error("Error during processing:", error);
+  }
 })();
