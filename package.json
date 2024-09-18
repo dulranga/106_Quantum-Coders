@@ -18,9 +18,9 @@
   ],
   "main": "index.js",
   "dependencies": {
-    "frontend": "^0.1.0",
-    "backend": "^0.1.0"
+    "@mdx-js/react": "^3.0.1",
+    "backend": "^0.1.0",
+    "frontend": "^0.1.0"
   },
-  "devDependencies": {},
   "description": ""
 }
