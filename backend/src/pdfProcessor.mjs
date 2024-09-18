@@ -3,7 +3,7 @@ import fs from 'fs';
 import pdf from 'pdf-parse';
 import path from 'path';
 
-const pdfDir = '../pdfs/';
+const pdfDir = './pdfs/';
 
 async function extractTextFromPDF(pdfPath) {
     const dataBuffer = fs.readFileSync(pdfPath);

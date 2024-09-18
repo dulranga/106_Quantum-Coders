@@ -1,0 +1,108 @@
+{
+    "candidates": {
+        "Anura Kumara Dissanayake": {
+            "party": "NPP",
+            "manifesto": {
+                "healthcare": {
+                    "policy": "Increase government expenditure on health to at least 3% of GDP.",
+                    "actions": [
+                        "Implement community-based mechanisms to manage chronic diseases.",
+                        "Conduct annual health screenings for individuals over 40."
+                    ]
+                },
+                "economy": {
+                    "policy": "Implement green policies and renewable energy targets.",
+                    "actions": [
+                        "Promote renewable energy as a priority.",
+                        "Build green infrastructure and industry for sustainable development."
+                    ]
+                },
+                "education": {
+                    "policy": "Expand vocational education opportunities.",
+                    "actions": [
+                        "Establish Provincial Vocational Education Boards.",
+                        "Introduce STEM education in schools."
+                    ]
+                }
+            }
+        },
+        "Sajith Premadasa": {
+            "party": "Samagi Jana Balawegaya",
+            "manifesto": {
+                "healthcare": {
+                    "policy": "Introduce a healthcare insurance scheme enabling all citizens to access treatments.",
+                    "actions": [
+                        "Upgrade conditions in government hospitals.",
+                        "Ensure senior citizens receive medical tests every three years."
+                    ]
+                },
+                "economy": {
+                    "policy": "Develop a resilient economy through a social market model.",
+                    "actions": [
+                        "Increase gross national happiness by balancing economic progress with social welfare.",
+                        "Implement anti-corruption laws and ensure transparency."
+                    ]
+                },
+                "education": {
+                    "policy": "Revamp education to build internationally competitive human capital.",
+                    "actions": [
+                        "Provide digital learning platforms in schools.",
+                        "Increase Mahapola scholarships."
+                    ]
+                }
+            }
+        },
+        "Ranil Wickremesinghe": {
+            "party": "UNP",
+            "manifesto": {
+                "healthcare": {
+                    "policy": "Introduce regulations for private hospitals and improve public health services.",
+                    "actions": [
+                        "Establish a Pharmaceutical Standardization Institute.",
+                        "Provide palliative care services for patients with chronic illnesses."
+                    ]
+                },
+                "economy": {
+                    "policy": "Implement policies for strong fiscal discipline and economic reforms.",
+                    "actions": [
+                        "Increase foreign investments in renewable energy.",
+                        "Modernize industries with a focus on technology and innovation."
+                    ]
+                },
+                "education": {
+                    "policy": "Modernize the education system with a focus on soft skills and digital learning.",
+                    "actions": [
+                        "Start university education at the age of 17.",
+                        "Create smart schools with digital infrastructure."
+                    ]
+                }
+            }
+        },
+        "Namal Rajapaksa": {
+            "party": "SLPP",
+            "manifesto": {
+                "healthcare": {
+                    "policy": "Expand medical services and focus on digital healthcare.",
+                    "actions": [
+                        "Introduce medical insurance for elderly monks.",
+                        "Develop public health facilities to improve life expectancy."
+                    ]
+                },
+                "economy": {
+                    "policy": "Promote Sri Lanka as a regional center for renewable energy.",
+                    "actions": [
+                        "Increase investments in green technology.",
+                        "Optimize use of natural resources like water, sunlight, and wind for energy."
+                    ]
+                },
+                "education": {
+                    "policy": "Strengthen technical education and vocational training.",
+                    "actions": [
+                        "Open new universities across provinces.",
+                        "Expand tertiary education opportunities with modern technology."
+                    ]
+                }
+            }
+        }
+    }
+}
