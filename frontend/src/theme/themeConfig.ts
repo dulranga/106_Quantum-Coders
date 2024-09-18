@@ -2,7 +2,7 @@ import type { ThemeConfig } from "antd";
 
 const theme: ThemeConfig = {
   token: {
-    colorPrimary: "#7695FF",
+    colorPrimary: "#4f46e5",
     fontFamily: "inherit",
   },
   components: {
@@ -11,7 +11,7 @@ const theme: ThemeConfig = {
       fontSize: 14,
     },
     Progress: {
-      defaultColor: "#7695FF",
+      defaultColor: "#4f46e5",
     },
   },
 };

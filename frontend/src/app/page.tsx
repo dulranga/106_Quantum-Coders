@@ -28,7 +28,9 @@ const Page = () => {
                 social media sentiment to predict potential election outcomes
                 with unprecedented accuracy."
         />
+
         <FeatureSection
+          reverseOrder
           action={
             <Button
               icon={<ChevronRight />}
@@ -36,14 +38,13 @@ const Page = () => {
               size="large"
               type="primary"
             >
-              Try Win Predictor
+              Compare Manifestos
             </Button>
           }
-          title="Win Predictor"
-          description="Our advanced AI analyzes public opinion, polling data, and
-                social media sentiment to predict potential election outcomes
-                with unprecedented accuracy."
+          title="Manifesto Comparator"
+          description="Compare candidate manifestos side by side, making it easier to evaluate promises, goals, and key points. Make an informed decision based on what matters most to you."
         />
+
         <FeatureSection
           action={
             <Button
@@ -52,13 +53,11 @@ const Page = () => {
               size="large"
               type="primary"
             >
-              Try Win Predictor
+              Chat with Election Bot
             </Button>
           }
-          title="Win Predictor"
-          description="Our advanced AI analyzes public opinion, polling data, and
-                social media sentiment to predict potential election outcomes
-                with unprecedented accuracy."
+          title="Election Bot"
+          description="Get instant, verified answers to your questions about candidates, their manifestos, and election details. Our AI-powered chatbot is available 24/7 to provide reliable information."
         />
       </div>
     </main>
