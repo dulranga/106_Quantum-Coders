@@ -1,5 +1,6 @@
 import { Button } from "antd";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -14,15 +15,19 @@ export default function HeroSection() {
           Lankan presidential election.
         </p>
         <div className="flex gap-5">
-          <Button
-            icon={<ArrowRight />}
-            iconPosition="end"
-            size="large"
-            type="primary"
-          >
-            Explore Features
-          </Button>
-          <Button size="large">Try Chatbot</Button>
+          <Link href="/#features">
+            <Button
+              icon={<ArrowRight />}
+              iconPosition="end"
+              size="large"
+              type="primary"
+            >
+              Explore Features
+            </Button>
+          </Link>
+          <Link href="/bot">
+            <Button size="large">Try Chatbot</Button>
+          </Link>
         </div>
       </div>
       <div className="flex-1 text-center mt-4 lg:mt-0 lg:ml-3">
