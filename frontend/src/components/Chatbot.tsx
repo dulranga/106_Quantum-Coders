@@ -5,36 +5,36 @@ import React, { useRef, useState } from "react";
 
 // Array of loading phrases
 const loadingPhrases = [
-  "💬 Preparing a helpful response for you...",
-  "⏳ Gathering health insights...",
-  "🧠 Thinking through the best advice for you...",
-  "🔍 Searching for the best tips...",
-  "💡 Let me find that information for you...",
-  "📋 Compiling health data...",
-  "📚 Consulting my medical knowledge base...",
-  "🧐 Evaluating your question...",
-  "🔄 Processing your request...",
-  "🤔 Finding the best response for your health question...",
-  "👨‍⚕️ Reviewing health guidelines...",
-  "🔬 Analyzing health information...",
-  "🚑 Preparing health suggestions...",
-  "🌱 Gathering wellness advice...",
-  "💡 Generating insights on your query...",
-  "📊 Checking medical resources...",
-  "🛠 Crafting a helpful answer...",
-  "📈 Reviewing relevant health info...",
-  "📖 Searching through health articles...",
-  "🩺 Consulting virtual health records...",
-  "⏱ Just a moment, researching now...",
-  "🔎 Let me get the right advice for you...",
-  "👨‍🔬 Checking the latest health info...",
-  "👩‍⚕️ Summoning health tips for you...",
-  "🏋️ Collecting fitness suggestions...",
-  "🥗 Finding nutrition tips...",
-  "🧘 Gathering mental wellness advice...",
-  "🩻 Reviewing your health question...",
-  "🔧 Fine-tuning your answer...",
-  "💭 Gathering thoughts to assist you...",
+    "💬 Preparing the best information for you...",
+    "⏳ Gathering election insights...",
+    "🧠 Thinking through the candidate manifestos...",
+    "🔍 Searching for the most relevant policies...",
+    "💡 Let me find that election information for you...",
+    "📋 Compiling election data...",
+    "📚 Consulting my knowledge of the manifestos...",
+    "🧐 Evaluating the candidates' promises...",
+    "🔄 Processing your election query...",
+    "🤔 Finding the best comparison for your candidate question...",
+    "📊 Reviewing election resources...",
+    "🔬 Analyzing manifesto details...",
+    "📈 Gathering insights from the candidates' policies...",
+    "🔎 Let me retrieve the right information for you...",
+    "🗳️ Checking the candidates' stances on key issues...",
+    "⚖️ Comparing manifestos for you...",
+    "📖 Reviewing candidates' promises...",
+    "🔧 Fine-tuning your election answer...",
+    "💭 Thinking through the election facts for you...",
+    "📊 Summarizing policy information...",
+    "🔎 Let me check the manifestos for relevant details...",
+    "👨‍💼 Consulting political knowledge...",
+    "📝 Reviewing key points in the manifestos...",
+    "🗳️ Collecting election-related details...",
+    "🌍 Gathering information on policy promises...",
+    "🔍 Searching for relevant election facts...",
+    "⚖️ Analyzing the candidates' policies...",
+    "📊 Gathering political insights...",
+    "🔄 Summoning the best election response for you...",
+    "💡 Reviewing campaign information..."
 ];
 
 const getRandomLoadingPhrase = () => {
@@ -90,7 +90,20 @@ const ChatBot: React.FC = () => {
   return (
     <div className="flex flex-col h-[80vh] justify-between m-4 max-w-screen-xl mx-auto">
       <div className="flex-1 overflow-y-auto p-5 bg-gray-100 rounded-t-lg flex flex-col">
-        <div className="mb-3 p-3 bg-blue-100 self-start rounded-lg text-black max-w-[80%]"></div>
+              <div className="mb-3 p-3 bg-blue-100 self-start rounded-lg text-black max-w-[80%]">
+                  <h5>Hello! 😊 Welcome to ElectionMate – Your AI Assistant for Election Information! 🗳️🤖</h5>
+
+                  <p>I'm here to help you with all your questions about the upcoming election, candidate manifestos, and key issues. Whether you're curious about what the candidates are promising or need a comparison of their policies, I'm here to guide you! 🌟</p>
+                  <br />
+                  <b>Here's what I can do for you:</b>
+                  <ul>
+                      <li>📜 Provide you with detailed information from candidate manifestos so you can understand their promises and policies.</li>
+                      <li>⚖️ Compare different candidates' manifestos to help you see where they stand on key issues like the economy, healthcare, and education.</li>
+                      <li>🔍 Answer your election-related queries, from voting information to key dates, so you stay informed throughout the process.</li>
+                  </ul>
+
+                  <p>Feel free to ask me anything about the election – I’m here to help you make an informed decision! 🗳️❤️</p>
+        </div>
         {messages.map((msg, index) => (
           <div
             key={index}
@@ -112,7 +125,7 @@ const ChatBot: React.FC = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder="Ask your health-related question here..."
+          placeholder="Ask your election-related question here..."
           className="flex-1 p-2 border-none rounded-lg mr-3 focus:outline-none"
         />
         <Button
@@ -123,10 +136,8 @@ const ChatBot: React.FC = () => {
         ></Button>
       </div>
       <div className="text-center text-sm text-gray-600 p-2">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ipsum
-        qui molestias placeat id illo mollitia molestiae vel non quisquam?
-        Veritatis, perspiciatis quam possimus illum eaque voluptas ratione sequi
-        suscipit.
+              ElectionMate doesn't save your chat history. Please avoid sharing sensitive personal information. <br />
+              The information provided is based on pre-analyzed data, and ElectionMate aims to remain neutral and factual. Always verify with official sources before making any decisions.
       </div>
     </div>
   );
