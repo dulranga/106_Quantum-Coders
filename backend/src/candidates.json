@@ -4,31 +4,59 @@
             "party": "NPP",
             "manifesto": {
                 "healthcare": {
-                    "policy": "Gradually increase government expenditure on health to at least 3% of GDP.",
+                    "policy": "Increase healthcare spending to at least 3% of GDP.",
                     "actions": [
-                        "Expand care facilities for the elderly and chronically ill.",
-                        "Ensure early diagnosis through annual medical tests for citizens over 40."
+                        "Improve care facilities for elderly and chronically ill patients.",
+                        "Implement community-based healthcare for non-communicable diseases."
                     ]
                 },
-                "economy": {
-                    "policy": "Transform Sri Lanka into a globally connected social market economy.",
+                "women_and_children_rights": {
+                    "policy": "Promote gender equality and protect children's rights.",
                     "actions": [
-                        "Eradicate corruption and strengthen transparency in governance.",
-                        "Promote a green economy with sustainable energy policies."
+                        "Establish laws protecting women from violence.",
+                        "Create child-friendly education and healthcare systems."
                     ]
                 },
                 "education": {
-                    "policy": "Expand educational opportunities by modernizing syllabi and teaching methods.",
+                    "policy": "Innovate the educational system to provide inclusive, modern education.",
                     "actions": [
-                        "Introduce vocational training boards across all provinces.",
-                        "Ensure technological education is prioritized at all levels."
+                        "Expand vocational and STEM education.",
+                        "Implement technology-driven education in rural areas."
                     ]
                 },
-                "social_security": {
-                    "policy": "Strengthen social security and protection networks for vulnerable communities.",
+                "anti_poverty": {
+                    "policy": "Strengthen social security and workers' rights.",
                     "actions": [
-                        "Provide concessional loans for farmers and female-headed households.",
-                        "Establish a social security fund for all workers."
+                        "Create a social security fund for all workers.",
+                        "Offer financial support to female-headed households."
+                    ]
+                },
+                "access_to_justice": {
+                    "policy": "Ensure justice is accessible to all citizens.",
+                    "actions": [
+                        "Reform judicial procedures for quick processing of cases.",
+                        "Strengthen the Legal Aid Commission."
+                    ]
+                },
+                "delayed_elections": {
+                    "policy": "Conduct long-postponed elections promptly.",
+                    "actions": [
+                        "Hold local government elections within six months.",
+                        "Ensure efficient operations of provincial councils."
+                    ]
+                },
+                "environment_and_climate_change": {
+                    "policy": "Sustainably manage Sri Lanka’s natural resources.",
+                    "actions": [
+                        "Develop renewable energy projects to combat climate change.",
+                        "Establish green technology hubs to promote innovation."
+                    ]
+                },
+                "culture_and_media": {
+                    "policy": "Preserve and promote Sri Lankan culture.",
+                    "actions": [
+                        "Establish cultural zones and centers in every major city.",
+                        "Create a National Film Institute for artistic development."
                     ]
                 }
             }
@@ -37,31 +65,58 @@
             "party": "Samagi Jana Balawegaya",
             "manifesto": {
                 "healthcare": {
-                    "policy": "Reinforce the healthcare sector with professional and technological resources.",
+                    "policy": "Provide universal healthcare through insurance.",
                     "actions": [
-                        "Introduce a resilient healthcare insurance scheme for all citizens.",
-                        "Upgrade conditions in government hospitals across the country."
+                        "Upgrade public hospitals.",
+                        "Ensure citizens over 40 receive regular health check-ups."
                     ]
                 },
-                "economy": {
-                    "policy": "Build a resilient economy through transparency and accountability.",
+                "women_and_children_rights": {
+                    "policy": "Empower women and protect children's welfare.",
                     "actions": [
-                        "Manage the debt crisis by adhering to IMF guidelines while protecting vulnerable populations.",
-                        "Increase government revenue through digitization and efficient tax policies."
+                        "Provide concessional loans to women-led households.",
+                        "Implement programs to combat child malnutrition."
                     ]
                 },
                 "education": {
-                    "policy": "Create internationally competitive human capital through educational reform.",
+                    "policy": "Create a modern and globally competitive education system.",
                     "actions": [
-                        "Revamp the education sector to include vocational training and digital learning platforms.",
-                        "Increase Mahapola scholarships and other bursaries."
+                        "Increase scholarships and digital learning opportunities.",
+                        "Revise educational curriculums with modern technology."
                     ]
                 },
-                "social_security": {
-                    "policy": "Empower every citizen with access to essential social services.",
+                "anti_poverty": {
+                    "policy": "Protect vulnerable families and promote workers’ rights.",
                     "actions": [
-                        "Ensure equitable distribution of Samurdhi financial benefits.",
-                        "Establish a national salary structure to minimize wage disparities."
+                        "Provide financial aid to low-income families and senior citizens.",
+                        "Implement a financial support program for farmers."
+                    ]
+                },
+                "access_to_justice": {
+                    "policy": "Ensure easy access to justice for marginalized communities.",
+                    "actions": [
+                        "Strengthen the Human Rights Commission and Legal Aid Commission.",
+                        "Expand the capacity of provincial courts to reduce backlog."
+                    ]
+                },
+                "delayed_elections": {
+                    "policy": "Promptly hold provincial and local government elections.",
+                    "actions": [
+                        "Ensure the effective functioning of local governments."
+                    ]
+                },
+                "environment_and_climate_change": {
+                    "policy": "Adopt green policies to address climate change.",
+                    "actions": [
+                        "Develop renewable energy projects for solar and wind power.",
+                        "Prioritize eco-friendly policies in urban development."
+                    ]
+                },
+                "culture_and_media": {
+                    "policy": "Promote freedom of expression and cultural development.",
+                    "actions": [
+                        "Introduce tax breaks for cultural and artistic enterprises.",
+                        "Create free art spaces across the country."
                     ]
                 }
             }
@@ -70,31 +125,58 @@
             "party": "UNP",
             "manifesto": {
                 "healthcare": {
-                    "policy": "Introduce regulations for private hospitals and enhance public healthcare.",
+                    "policy": "Improve public healthcare and regulate private hospitals.",
                     "actions": [
                         "Establish a Pharmaceutical Standardization Institute.",
-                        "Expand palliative care services for the elderly and terminally ill."
+                        "Expand palliative care and medical services for the elderly."
                     ]
                 },
-                "economy": {
-                    "policy": "Implement strong fiscal discipline and reforms to stimulate economic growth.",
+                "women_and_children_rights": {
+                    "policy": "Enhance legal protections for women and children.",
                     "actions": [
-                        "Encourage foreign investments in renewable energy.",
-                        "Modernize industries with a focus on innovation and technology."
+                        "Create specialized courts for children’s cases.",
+                        "Combat period poverty and provide resources for women's health."
                     ]
                 },
                 "education": {
-                    "policy": "Transform the education system by incorporating life skills and technology.",
+                    "policy": "Modernize education to include vocational training.",
                     "actions": [
-                        "Revise school education to prioritize soft skills, life skills, and English proficiency.",
-                        "Create Vocational Skills Sri Lanka (VSSL) to oversee vocational training."
+                        "Start university education by age 17.",
+                        "Create new universities in underdeveloped regions."
                     ]
                 },
-                "social_security": {
-                    "policy": "Provide robust social protection and worker rights.",
+                "anti_poverty": {
+                    "policy": "Promote fair wages and social protection for workers.",
                     "actions": [
-                        "Grant concessional loans for middle-class families to construct houses.",
-                        "Strengthen cooperative banks and ensure fair treatment of workers."
+                        "Provide loans for middle-class housing and development.",
+                        "Implement social safety nets for farmers and gig workers."
+                    ]
+                },
+                "access_to_justice": {
+                    "policy": "Strengthen judicial reforms for timely access to justice.",
+                    "actions": [
+                        "Review long-term detention cases for fairness.",
+                        "Expand legal aid services to cover all citizens."
+                    ]
+                },
+                "delayed_elections": {
+                    "policy": "Hold postponed elections and strengthen democracy.",
+                    "actions": [
+                        "Hold provincial council elections promptly."
+                    ]
+                },
+                "environment_and_climate_change": {
+                    "policy": "Make Sri Lanka a regional leader in renewable energy.",
+                    "actions": [
+                        "Meet a 70% renewable energy target by 2030.",
+                        "Establish a Climate Change Secretariat to manage disaster resilience."
+                    ]
+                },
+                "culture_and_media": {
+                    "policy": "Protect cultural identity and freedom of expression.",
+                    "actions": [
+                        "Introduce a national journalism policy for responsible reporting.",
+                        "Preserve multicultural identities through cultural programs."
                     ]
                 }
             }
@@ -103,31 +185,58 @@
             "party": "SLPP",
             "manifesto": {
                 "healthcare": {
-                    "policy": "Improve life expectancy and strengthen healthcare infrastructure.",
+                    "policy": "Improve healthcare for elderly and vulnerable populations.",
                     "actions": [
-                        "Develop public healthcare facilities and provide high-quality services.",
-                        "Create a special medical insurance scheme for elderly monks."
+                        "Provide health insurance for elderly monks.",
+                        "Develop public hospitals with modern ICT systems."
                     ]
                 },
-                "economy": {
-                    "policy": "Promote Sri Lanka as a regional center for renewable energy.",
+                "women_and_children_rights": {
+                    "policy": "Protect women’s rights and enhance child welfare.",
                     "actions": [
-                        "Optimize natural resources like sunlight, wind, and water for energy.",
-                        "Encourage investments in green technology and industrial innovation."
+                        "Provide equal opportunities for women in employment programs.",
+                        "Introduce preschool subsidies for low-income families."
                     ]
                 },
                 "education": {
-                    "policy": "Strengthen education with a focus on technology and vocational training.",
+                    "policy": "Expand vocational and higher education opportunities.",
                     "actions": [
-                        "Introduce digital learning platforms and expand the ‘Sakwala’ program.",
-                        "Provide vocational training opportunities through provincial boards."
+                        "Establish more universities with international standards.",
+                        "Provide scholarships for students to study abroad."
                     ]
                 },
-                "social_security": {
-                    "policy": "Ensure financial assistance for low-income families and the elderly.",
+                "anti_poverty": {
+                    "policy": "Provide financial support to low-income families.",
                     "actions": [
-                        "Provide Rs. 5,000 monthly to senior citizens needing assistance.",
-                        "Offer concessional loans to women-led households and entrepreneurs."
+                        "Offer concessional loans to women entrepreneurs.",
+                        "Implement a permanent fertilizer subsidy program for farmers."
+                    ]
+                },
+                "access_to_justice": {
+                    "policy": "Ensure legal protection for all citizens and their property.",
+                    "actions": [
+                        "Modernize law enforcement and judicial processes.",
+                        "Strengthen protections for intellectual property rights."
+                    ]
+                },
+                "delayed_elections": {
+                    "policy": "Ensure elections are held on schedule.",
+                    "actions": [
+                        "Hold provincial council and local elections promptly."
+                    ]
+                },
+                "environment_and_climate_change": {
+                    "policy": "Develop Sri Lanka as a renewable energy hub.",
+                    "actions": [
+                        "Promote eco-friendly industries and sustainable energy projects.",
+                        "Establish legal frameworks for environmental protection."
+                    ]
+                },
+                "culture_and_media": {
+                    "policy": "Promote Sri Lankan culture globally.",
+                    "actions": [
+                        "Create cultural export hubs to promote arts and culture.",
+                        "Establish intellectual property laws to protect creative industries."
                     ]
                 }
             }
