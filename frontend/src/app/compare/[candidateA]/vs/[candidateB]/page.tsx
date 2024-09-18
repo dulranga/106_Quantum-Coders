@@ -1,21 +1,9 @@
 import { findApplicant } from "@/constants/applicants";
+import { topics } from "@/constants/topics";
 import { Avatar, Table } from "antd";
 import { ColumnType } from "antd/es/table";
-
-const dataSource = [
-  {
-    key: "1",
-    name: "Mike",
-    age: 32,
-    address: "10 Downing Street",
-  },
-  {
-    key: "2",
-    name: "John",
-    age: 42,
-    address: "10 Downing Street",
-  },
-];
+import candidates from "backend/src/candidates.json";
+import ComparisonTable from "./ComparisonTable";
 
 const Page = ({ params }: { params: Record<string, string> }) => {
   const { candidateA: a, candidateB: b } = params;
@@ -26,41 +14,14 @@ const Page = ({ params }: { params: Record<string, string> }) => {
   const candidateB = findApplicant(b);
   if (!candidateB) throw new Error("Invalid Candidate Selected");
 
-  const columns: ColumnType[] = [
-    {
-      title: "Fields",
-    },
-    {
-      title: (
-        <div className="flex items-center justify-center gap-2">
-          <Avatar
-            shape="circle"
-            alt={candidateA.name}
-            size={50}
-            src={candidateA.src}
-          >
-            {candidateA.name}
-          </Avatar>
-          <span>{candidateA.name}</span>
-        </div>
-      ),
-    },
-    {
-      title: (
-        <div className="flex items-center justify-center gap-2">
-          <Avatar
-            shape="circle"
-            alt={candidateB.name}
-            size={50}
-            src={candidateB.src}
-          >
-            {candidateB.name}
-          </Avatar>
-          <span>{candidateB.name}</span>
-        </div>
-      ),
-    },
-  ];
+  const candidateADetails = candidates.candidates?.[candidateA.name];
+  const candidateBDetails = candidates.candidates?.[candidateB.name];
+
+  const dataSource = topics.map((topic) => ({
+    topic: topic.label,
+    candidateA: candidateADetails?.manifesto?.[topic.id],
+    candidateB: candidateBDetails?.manifesto?.[topic.id],
+  }));
 
   return (
     <main className="max-w-screen-xl px-10 mx-auto my-20">
@@ -68,7 +29,7 @@ const Page = ({ params }: { params: Record<string, string> }) => {
         Compare Candidates
       </h2>
 
-      <Table columns={columns} dataSource={dataSource} pagination={false} />
+      <ComparisonTable dataSource={dataSource} />
     </main>
   );
 };
