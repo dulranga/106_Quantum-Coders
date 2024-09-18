@@ -4,9 +4,12 @@ import axios from "axios";
 import candidatesContext from "backend/src/candidates.json";
 
 // Instructions for the AI model at the start
-const instructions = `Use this json object candidates manifestos for answer to users : ${candidatesContext}`;
 
 export const generateResponse = async (newMessages: any[] = [], input = "") => {
+  const instructions = `Use this json data and parse it to get info about sri lanka presidential election candidates manifestos for answer to users : ${JSON.stringify(
+    candidatesContext
+  )}`;
+
   const fallbackResponse =
     "No response generated. Something went wrong. Please try again later 😇";
 
