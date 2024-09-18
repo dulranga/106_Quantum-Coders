@@ -4,24 +4,31 @@
             "party": "NPP",
             "manifesto": {
                 "healthcare": {
-                    "policy": "Increase government expenditure on health to at least 3% of GDP.",
+                    "policy": "Gradually increase government expenditure on health to at least 3% of GDP.",
                     "actions": [
-                        "Implement community-based mechanisms to manage chronic diseases.",
-                        "Conduct annual health screenings for individuals over 40."
+                        "Expand care facilities for the elderly and chronically ill.",
+                        "Ensure early diagnosis through annual medical tests for citizens over 40."
                     ]
                 },
                 "economy": {
-                    "policy": "Implement green policies and renewable energy targets.",
+                    "policy": "Transform Sri Lanka into a globally connected social market economy.",
                     "actions": [
-                        "Promote renewable energy as a priority.",
-                        "Build green infrastructure and industry for sustainable development."
+                        "Eradicate corruption and strengthen transparency in governance.",
+                        "Promote a green economy with sustainable energy policies."
                     ]
                 },
                 "education": {
-                    "policy": "Expand vocational education opportunities.",
+                    "policy": "Expand educational opportunities by modernizing syllabi and teaching methods.",
                     "actions": [
-                        "Establish Provincial Vocational Education Boards.",
-                        "Introduce STEM education in schools."
+                        "Introduce vocational training boards across all provinces.",
+                        "Ensure technological education is prioritized at all levels."
+                    ]
+                },
+                "social_security": {
+                    "policy": "Strengthen social security and protection networks for vulnerable communities.",
+                    "actions": [
+                        "Provide concessional loans for farmers and female-headed households.",
+                        "Establish a social security fund for all workers."
                     ]
                 }
             }
@@ -30,24 +37,31 @@
             "party": "Samagi Jana Balawegaya",
             "manifesto": {
                 "healthcare": {
-                    "policy": "Introduce a healthcare insurance scheme enabling all citizens to access treatments.",
+                    "policy": "Reinforce the healthcare sector with professional and technological resources.",
                     "actions": [
-                        "Upgrade conditions in government hospitals.",
-                        "Ensure senior citizens receive medical tests every three years."
+                        "Introduce a resilient healthcare insurance scheme for all citizens.",
+                        "Upgrade conditions in government hospitals across the country."
                     ]
                 },
                 "economy": {
-                    "policy": "Develop a resilient economy through a social market model.",
+                    "policy": "Build a resilient economy through transparency and accountability.",
                     "actions": [
-                        "Increase gross national happiness by balancing economic progress with social welfare.",
-                        "Implement anti-corruption laws and ensure transparency."
+                        "Manage the debt crisis by adhering to IMF guidelines while protecting vulnerable populations.",
+                        "Increase government revenue through digitization and efficient tax policies."
                     ]
                 },
                 "education": {
-                    "policy": "Revamp education to build internationally competitive human capital.",
+                    "policy": "Create internationally competitive human capital through educational reform.",
                     "actions": [
-                        "Provide digital learning platforms in schools.",
-                        "Increase Mahapola scholarships."
+                        "Revamp the education sector to include vocational training and digital learning platforms.",
+                        "Increase Mahapola scholarships and other bursaries."
+                    ]
+                },
+                "social_security": {
+                    "policy": "Empower every citizen with access to essential social services.",
+                    "actions": [
+                        "Ensure equitable distribution of Samurdhi financial benefits.",
+                        "Establish a national salary structure to minimize wage disparities."
                     ]
                 }
             }
@@ -56,24 +70,31 @@
             "party": "UNP",
             "manifesto": {
                 "healthcare": {
-                    "policy": "Introduce regulations for private hospitals and improve public health services.",
+                    "policy": "Introduce regulations for private hospitals and enhance public healthcare.",
                     "actions": [
                         "Establish a Pharmaceutical Standardization Institute.",
-                        "Provide palliative care services for patients with chronic illnesses."
+                        "Expand palliative care services for the elderly and terminally ill."
                     ]
                 },
                 "economy": {
-                    "policy": "Implement policies for strong fiscal discipline and economic reforms.",
+                    "policy": "Implement strong fiscal discipline and reforms to stimulate economic growth.",
                     "actions": [
-                        "Increase foreign investments in renewable energy.",
-                        "Modernize industries with a focus on technology and innovation."
+                        "Encourage foreign investments in renewable energy.",
+                        "Modernize industries with a focus on innovation and technology."
                     ]
                 },
                 "education": {
-                    "policy": "Modernize the education system with a focus on soft skills and digital learning.",
+                    "policy": "Transform the education system by incorporating life skills and technology.",
                     "actions": [
-                        "Start university education at the age of 17.",
-                        "Create smart schools with digital infrastructure."
+                        "Revise school education to prioritize soft skills, life skills, and English proficiency.",
+                        "Create Vocational Skills Sri Lanka (VSSL) to oversee vocational training."
+                    ]
+                },
+                "social_security": {
+                    "policy": "Provide robust social protection and worker rights.",
+                    "actions": [
+                        "Grant concessional loans for middle-class families to construct houses.",
+                        "Strengthen cooperative banks and ensure fair treatment of workers."
                     ]
                 }
             }
@@ -82,24 +103,31 @@
             "party": "SLPP",
             "manifesto": {
                 "healthcare": {
-                    "policy": "Expand medical services and focus on digital healthcare.",
+                    "policy": "Improve life expectancy and strengthen healthcare infrastructure.",
                     "actions": [
-                        "Introduce medical insurance for elderly monks.",
-                        "Develop public health facilities to improve life expectancy."
+                        "Develop public healthcare facilities and provide high-quality services.",
+                        "Create a special medical insurance scheme for elderly monks."
                     ]
                 },
                 "economy": {
                     "policy": "Promote Sri Lanka as a regional center for renewable energy.",
                     "actions": [
-                        "Increase investments in green technology.",
-                        "Optimize use of natural resources like water, sunlight, and wind for energy."
+                        "Optimize natural resources like sunlight, wind, and water for energy.",
+                        "Encourage investments in green technology and industrial innovation."
                     ]
                 },
                 "education": {
-                    "policy": "Strengthen technical education and vocational training.",
+                    "policy": "Strengthen education with a focus on technology and vocational training.",
                     "actions": [
-                        "Open new universities across provinces.",
-                        "Expand tertiary education opportunities with modern technology."
+                        "Introduce digital learning platforms and expand the ‘Sakwala’ program.",
+                        "Provide vocational training opportunities through provincial boards."
+                    ]
+                },
+                "social_security": {
+                    "policy": "Ensure financial assistance for low-income families and the elderly.",
+                    "actions": [
+                        "Provide Rs. 5,000 monthly to senior citizens needing assistance.",
+                        "Offer concessional loans to women-led households and entrepreneurs."
                     ]
                 }
             }
