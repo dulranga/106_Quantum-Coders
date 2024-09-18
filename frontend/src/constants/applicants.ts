@@ -24,7 +24,7 @@ export const APPLICANTS = [
     name: "Namal Rajapaksa",
     src: namal.src,
   },
-];
+] as const;
 
 export const findApplicant = (id: string) =>
   APPLICANTS.find((a) => a.id === id);

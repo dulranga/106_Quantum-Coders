@@ -4,7 +4,7 @@ import { Drawer } from "antd";
 import Link from "next/link";
 import { TbX } from "react-icons/tb";
 
-const NavbarMobile = ({ handle, menu, options }: unknown) => {
+const NavbarMobile = ({ handle, menu, options }: any) => {
   return (
     <Drawer
       onClose={handle}
@@ -22,7 +22,7 @@ const NavbarMobile = ({ handle, menu, options }: unknown) => {
         </button>
 
         <div className="flex flex-1 py-10 text-center flex-col gap-3">
-          {options?.map(({ id, label, url }) => (
+          {options?.map(({ id, label, url }: any) => (
             <Link onClick={handle} className="text-black" key={id} href={url}>
               {label}
             </Link>

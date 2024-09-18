@@ -14,12 +14,15 @@ import {
 
 import electionData from "backend/src/win_predictor.json";
 
-// Transform data for Recharts
-const data = Object.keys(electionData.candidates).map((candidate) => ({
-  name: candidate,
-  vote_percentage: electionData.candidates?.[candidate]?.vote_percentage,
-  vote_count: electionData.candidates?.[candidate]?.vote_count,
-}));
+type Candidate = keyof (typeof electionData)["candidates"];
+
+const data = (Object.keys(electionData.candidates) as Candidate[]).map(
+  (candidate) => ({
+    name: candidate,
+    vote_percentage: electionData.candidates?.[candidate]?.vote_percentage,
+    vote_count: electionData.candidates?.[candidate]?.vote_count,
+  })
+);
 
 const ElectionGraph: React.FC = () => {
   return (

@@ -10,4 +10,4 @@ export const topics = [
     label: "Environment and Climate Change",
   },
   { id: "culture_and_media", label: "Culture and Media" },
-];
+] as const;

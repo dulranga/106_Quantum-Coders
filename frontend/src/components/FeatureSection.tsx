@@ -14,7 +14,7 @@ const FeatureSection = ({
   title,
   description,
   action,
-  imageSrc,
+  imageSrc = "",
   reverseOrder = false,
 }: FeatureSectionProps) => {
   return (
